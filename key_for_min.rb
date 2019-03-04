@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
   end
   low = low_v[0]
   for v in 0...low_v.size
-    if low_v[v] < low
+    if low_v[v] <= low
       low = low_v[v]
       lowest = low_k[v]
     end
