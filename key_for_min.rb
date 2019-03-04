@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   end
   low_k = []
   low_v = []
-  name_hash.collect do |name, number|
+  name_hash.each do |name, number|
     low_k.push(name)
     low_v.push(number)
   end
